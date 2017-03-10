@@ -348,7 +348,7 @@ import { AppRegistry, Navigator, Text, View } from 'react-native';
 
 import MyScene from './app/MyScene';
 
-class SimpleNavigationApp extends Component {
+class nativeTrip extends Component {
   render() {
     return (
       <Navigator
@@ -379,4 +379,4 @@ class SimpleNavigationApp extends Component {
   }
 }
 
-AppRegistry.registerComponent('nativeTrip', () => SimpleNavigationApp);
+AppRegistry.registerComponent('nativeTrip', () => nativeTrip);
